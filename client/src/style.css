@@ -1,0 +1,268 @@
+/* Juliette Park
+   June 2023
+   Styling sheet for Draft */
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: lightsteelblue;
+}
+
+.overallBlue {
+    background-color: lightsteelblue;
+    height: 100vh;
+}
+
+.contentCenter {
+    padding-top: 18%;
+}
+
+.homeheader {
+    text-align: center;
+    font-family: 'Gluten', cursive;
+    color:white;
+    font-size: 350%;
+}
+
+.introDescription {
+    font-family: 'Gaegu', cursive;
+    /* background-color: aliceblue; */
+    padding: 2%;
+    text-align: center;
+    font-size: 165%;
+    color: white;
+}
+
+.descr {
+    font-family: 'Gaegu', cursive;
+    text-align: center;
+    font-size: 165%;
+    color: white;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.homeButtons {
+    display: inline-block;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.6em 1.1em;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-family: 'Gaegu', cursive;
+    line-height: 100px;
+    /* Second element creates padding on left and right side */
+    position: relative;
+    padding: 16px 30px;
+    background:rgb(255, 251, 251);
+    color:rgb(149, 77, 68);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.navigation li a:hover {
+    background:burlywood;
+    color:#fff;
+    letter-spacing: 4px;
+    border: 2px solid;
+}
+
+/* RULES PAGE */
+.rulesOverall {
+    background-color: lightsteelblue;
+    text-align: center;
+    height:100vh;
+    margin-top: 0;
+    padding-top: 5%;
+}
+
+.rulesContent{
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    color:#834333;
+    font-family: 'Gaegu', cursive;
+    text-align: left;
+    border-radius: 2em;
+    padding: 2%;
+    
+    /* margin-top: 5%; */
+    /* margin-bottom: 15%; */
+}
+
+.rulesHeader {
+    text-align: center;
+    font-size: 200%;
+    background-color: #fff;
+}
+
+.rulesContent > p {
+    padding: 2%;
+    font-size: 150%;
+    background-color: #fff;
+}
+
+.button {
+    color: white;
+    border: white;
+    padding: 16px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Gaegu', cursive;
+
+    background:rgb(255, 251, 251);
+    color:rgb(149, 77, 68);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    /* transition: 0.3s; */
+    border-radius: 20px;
+    margin-top: 3%;
+}
+
+.button:hover {
+    background:burlywood;
+    color:#fff;
+    letter-spacing: 4px;
+    border: 2px solid white;
+}
+
+/* JOIN PAGE STYLING */
+
+.joinPageFormContainer {
+    margin: 4% 20%;
+}
+
+.forms {
+    font-family: 'Gaegu', cursive;
+    text-align: center;
+    font-size: 250%;
+    color: white;
+}
+
+.inputBox {
+    border-radius: 4px;
+    width: 15%;
+    padding: 0.2% 0.4%;
+    border: 1px solid #fff;
+    font-family: 'Gaegu', cursive;
+    font-size: 50%;
+    background-color: #fff;
+}
+
+.joinHeader {
+    text-align: center;
+    font-family: 'Gluten', cursive;
+    color:white;
+    font-size: 250%;
+    padding-top: 15%;
+}
+
+.navigation > button {
+    margin: 0 1%;
+}
+
+/* CREATE PAGE STYLING */
+
+.createHeader {
+    text-align: center;
+    font-family: 'Gluten', cursive;
+    color:white;
+    font-size: 250%;
+    padding-top: 3%;
+}
+
+.inputBoxes {
+    display: inline-block;
+    font-family: 'Gaegu', cursive;
+    color:white;
+    font-size: 150%;
+    margin: 1.5%;
+}
+
+.inputBoxes > textarea {
+    font-family: 'Gaegu', cursive;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 3%;
+    font-size: 65%;
+    background-color: #fff;
+}
+
+.createInputForms {
+    /* padding: 2%; */
+    margin: 2%;
+}
+
+.textAreaBoxes {
+    text-align: center;
+}
+
+.createInputAllContent {
+    border: 4px solid white;
+    margin: 2% 20%;
+    border-radius: 18px;
+}
+
+.createButtons {
+    text-align: center;
+}
+
+.createButtons > button { 
+    margin-top: 0;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+/* DISPLAY PAGE STYLING */
+
+.displayOverall {
+    text-align: center;
+    font-family: 'Gaegu', cursive;
+    color: white;
+}
+
+#displayHeader {
+    margin-top: 8%;
+}
+
+.pickHistory {
+    text-align: center;
+    font-size: 200%;
+    padding: 2% 15%;
+    border: 2px solid white;
+    border-radius: 18px;
+    margin: 3% auto;
+}
+
+.displayOverall > p {
+    font-size: 200%;
+    margin-bottom: 1%;
+}
+
+.displayOverall > button {
+    margin: 1%;
+}
+
+.displayOverall > select {
+    font-size: 125%;
+    font-family: 'Gaegu', cursive;
+    color: white;
+}

@@ -1,1 +1,0 @@
-## drafter full stack React app
